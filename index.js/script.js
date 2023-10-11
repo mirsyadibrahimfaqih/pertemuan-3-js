@@ -1,4 +1,4 @@
-let nama = prompt("Masukkan nama kamu")
+let nama = prompt("Masukkan angka")
 
 let kehadiran = prompt("Masukkan 2 jika benar, masukkan 0 jika salah")
 
