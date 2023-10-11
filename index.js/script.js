@@ -1,15 +1,10 @@
-// ini adalah variabel nama untuk inputan nama
 let nama = prompt("Masukkan nama kamu")
 
-// ini adalah variabel kehadiran untuk inputan kehadiran
-let kehadiran = prompt("Masukkan 1 jika hadir, masukkan 0 jika tidak hadir")
+let kehadiran = prompt("Masukkan 2 jika benar, masukkan 0 jika salah")
 
-// ini adalah variabel cek untuk mengecek apakah data sudah benar
 let cek = confirm("apakah sudah benar?")
 
 
-// ini adalah variabel hasil untuk mengecek apakah kamu hadir atau tidak kemudian memberikan output
-let hasil = kehadiran == "1" ? "Kamu hadir" : "Kamu tidak hadir"
+let hasil = kehadiran == "2" ? "benar" : "salah"
 
-// ini adalah output berupa alert
-document.getElementsByTagName("h3")[0].innerText = hasil
+alert(hasil)
